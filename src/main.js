@@ -75,9 +75,9 @@ btn.addEventListener('click', async () => {
         hidebtn();
       iziToast.show({
       title: '',
-      backgroundColor: '#EF4040',
+      backgroundColor: '#79fbff',
       messageColor: '#FFFFFF',
-      message: `Sorry, there are no images matching your search query. Please try again!`,
+      message: `We're sorry, but you've reached the end of search results.`,
       position: 'topRight',
     });
     }
